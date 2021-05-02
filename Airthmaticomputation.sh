@@ -15,3 +15,6 @@ echo $sum
 
 sum2=$(($c+$a/$b))
 echo $sum2
+
+sum3=$(($a/$b+$c))
+echo $sum3
