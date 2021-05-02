@@ -6,8 +6,8 @@ read b
 echo "Enter the number:"c
 read c
 
-sum=$(($a+$b*$c))
-echo $sum
-
 sum1=$(($a*$b+$c))
 echo $sum1
+
+sum=$(($a+$b*$c))
+echo $sum
