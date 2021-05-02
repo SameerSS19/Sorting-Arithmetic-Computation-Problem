@@ -21,3 +21,6 @@ echo $sum3
 
 num=($sum,$sum1,$sum2,$sum3)
 echo "All sum are:" ${num[@]}
+
+num1=($a,$b,$c)
+echo "Read value into array" ${num1[@]}
