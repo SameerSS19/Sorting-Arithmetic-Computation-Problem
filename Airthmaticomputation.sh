@@ -5,3 +5,5 @@ echo "Enter the number:"b
 read b
 echo "Enter the number:"c
 read c
+sum=$(($a+$b*$c))
+echo $sum
