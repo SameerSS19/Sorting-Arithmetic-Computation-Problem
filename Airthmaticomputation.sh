@@ -9,5 +9,9 @@ read c
 sum1=$(($a*$b+$c))
 echo $sum1
 
+
 sum=$(($a+$b*$c))
 echo $sum
+
+sum2=$(($c+$a/$b))
+echo $sum2
