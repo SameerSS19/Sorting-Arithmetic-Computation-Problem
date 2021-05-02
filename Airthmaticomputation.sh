@@ -18,3 +18,6 @@ echo $sum2
 
 sum3=$(($a/$b+$c))
 echo $sum3
+
+num=($sum,$sum1,$sum2,$sum3)
+echo "All sum are:" ${num[@]}
